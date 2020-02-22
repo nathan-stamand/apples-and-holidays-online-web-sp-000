@@ -32,7 +32,6 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       holiday_hash[season][holiday] << supply
     end
   end
-  holiday_hash
 end
 
 
